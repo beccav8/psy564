@@ -22,7 +22,7 @@ pathFile  <- file.path(pathDir,"Chapters/05/SAS_Chapter5/SAS_Chapter5.sas7bdat")
 ds0 <- readRDS("~/GitHub/psy564/Data/Derived/ELSA/dsL_ELSA.rds")
 ds0 <- data.frame(ds0) # save as a data frame 
 
- 
+head(ds0)
 
 
 ## @knitr BasicDescriptive
